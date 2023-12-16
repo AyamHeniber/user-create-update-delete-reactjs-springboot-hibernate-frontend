@@ -9,6 +9,7 @@ function App() {
   return (
     <Router>
       <HeaderComponent />
+      <ListUserComponent />
       <div className="main-content">
         <Routes>
           <Route path="/" element={<ListUserComponent />} />
